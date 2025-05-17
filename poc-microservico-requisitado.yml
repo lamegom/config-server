@@ -1,11 +1,10 @@
 spring:
   application:
-    name: config-service-github
+    name: poc-microservico-requisitado
   profiles: 
     active: default
   cloud:
     config:
       enabled: true
       uri: http://host.docker.internal:9296
-      search-path:
-      - poc-microservico-requisitado
+      
