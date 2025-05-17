@@ -7,4 +7,10 @@ spring:
     config:
       enabled: true
       uri: http://host.docker.internal:9296
-      
+
+jwt:
+  secret: MiAVzqUXy5Tfr1kVIGpPMiAVzqUXy5Tfr1kVIGpP
+  expiration: 86400
+
+my:
+  message: Hello World !
